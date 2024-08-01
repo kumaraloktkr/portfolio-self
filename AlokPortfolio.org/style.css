@@ -1,0 +1,171 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #101820;
+    color: #f7e009;
+}
+
+nav {
+    background-color: #092846;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 61px;
+    width: 100%;
+}
+
+nav .left-side{
+    font-size: 26px;
+}
+
+ .right-side{
+    font-size: 18px;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    /* background: red; */
+}
+
+
+.buttons .btn {
+    padding: 12px;
+    background-color: #092846;
+    color: #f7e009;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons .btn a{
+    text-decoration: none;
+    color:#f7e009;;
+}
+
+main .upper-side {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+ 
+
+main .upper-side .left-side {
+    font-size: 3rem;
+    width: 30%;
+    margin: auto;
+    padding: 0px;
+    /* background: red; */
+}
+
+main .upper-side .right-side img {
+    width: 80%;
+    margin: 21px 76px;
+    /* border: 2px solid gray ; */
+    /* box-shadow: 5px 5px 10px grey; */
+}
+
+.white{
+   color:  white ;
+}
+
+#element {
+    color: white;
+}
+
+hr{
+    margin-top: 168px;
+    margin-bottom: 90px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.lower-side{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.lower-side .box {
+    background-color: white;
+    width: 77vw;
+    height: 2px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    display: flex;
+
+}
+
+.lower-side .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-dese {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+
+ 
+footer {
+    background-color: #0e0e1a;
+    /* height: 233px; */
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer>div {
+    width: 233px;
+}
+
+footer .text-center {
+    text-align: center;
+    position: relative;
+    color: gray;
+    padding: 12px 0;
+    /* bottom: -68px; */
+}
+ 
+
+.social-media ul li {
+    text-decoration: none;
+}
+
+.social-media ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons .btn a {
+    text-decoration: none;
+    color: white;
+}
